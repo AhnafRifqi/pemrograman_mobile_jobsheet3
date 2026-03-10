@@ -9,4 +9,3 @@ bool validasiInput(double tinggiCm, double beratKg) {
   }
   return true;
 }
-
