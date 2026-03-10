@@ -2,7 +2,12 @@ void main() {
   List<Map<String, dynamic>> riwayat = [];
 }
 
-double hitungNilaiBMI(double tinggiCm, double beratKg) {
-  double tinggiM = tinggiCm / 100;
-  return beratKg / (tinggiM * tinggiM);
+void tampilkanRiwayat(List<Map<String, dynamic>> riwayat) {
+  for (var data in riwayat) {
+    print("Tinggi: ${data['tinggi']} cm");
+    print("Berat: ${data['berat']} kg");
+    print("BMI: ${data['bmi']}");
+    print("Kategori: ${data['kategori']}");
+    print("------------------");
+  }
 }
