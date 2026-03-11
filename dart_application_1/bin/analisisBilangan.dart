@@ -8,8 +8,6 @@ void main() {
 
   print("Angka yang dimasukkan: $angka");
 
-  print("Masukkan sebuah angka:");
-  int angka = int.parse(stdin.readLineSync()!);
 
   if (angka % 2 == 0) {
     print("Bilangan Genap");
