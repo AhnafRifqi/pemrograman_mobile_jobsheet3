@@ -11,4 +11,10 @@ void main() {
   } else {
     print("Bilangan Ganjil");
   }
+
+   if (angka >= 0) {
+    print("Bilangan Positif");
+  } else {
+    print("Bilangan Negatif");
+  }
 }
